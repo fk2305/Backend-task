@@ -1,0 +1,26 @@
+{
+  "name": "backend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "farhan",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/applicationinsights-js": "^1.0.9",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.16",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21"
+  }
+}
